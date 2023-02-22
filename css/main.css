@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --index: calC(1vw + 1vh);
+    --color-header: #f4efec;
+    --color-text: #cdc6c3;
+}
+
+@font-face {
+    font-family: raleway-a;
+    src: url('../fonts/raleway-regular.woff2')
+}
+
+body {
+    background: url("../img/bg.jpg");
+    background-size: 50px;
+    color: #ece0e0;
+    font-family: raleway-a;
+    overflow: hidden;
+}
+.header__img {
+    width: calc(var(--index)*36);
+    left: 37vw;
+    top: 10vh;
+}
+
